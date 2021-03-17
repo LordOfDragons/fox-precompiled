@@ -27,3 +27,7 @@ In Project Settings Dialog apply these changes:
 
 If all goes well you should be able now to compile your application with FOX
 statically linked into the executable. There is no need to trail along a FOX DLL.
+
+# Sub-Moduling
+It is recommended to add this repository as a sub-module in your GIT repository.
+This way you do not have to commig >20MB library file to your GIT repository.
