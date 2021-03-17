@@ -8,7 +8,7 @@ precompiled Windows shared and static libraries.
 This repository here contains a precompiled FOX static library which already
 include PNG and JPEG library statically linked. This way the FOX library can be
 just statically linked and call it a day. A proper way is using FOX as shared
-library but that would required trailing PNG and JPEG DLL alongside.
+library but that would required trailing PNG, ZLib and JPEG DLL alongside.
 
 This static library is compiled and tested using Visual Studio 2019 Community Edition
 on 64-Bit Windows. 32-Bit can be compiled too if required.
